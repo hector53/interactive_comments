@@ -2,7 +2,7 @@ import { createStore } from 'vuex'
 
 export default createStore({
   state: {
-    urlBack: "http://localhost:3000/api", 
+    urlBack: "http://comments.hectoracosta.site/api", 
     id_delete: 0, 
     id_parent: 0, 
     id_edit: 0, 
