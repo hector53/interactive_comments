@@ -1,3 +1,5 @@
 module.exports = {
-  publicPath: '/interactive_comments/'
+  publicPath: process.env.NODE_ENV === 'production'
+    ? '/interactive_comments/'
+    : '/'
 }
