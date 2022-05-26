@@ -15,7 +15,7 @@ const routes = [
 ]
 
 const router = createRouter({
-  history: createWebHistory('/interactive_comments/'),
+  history: createWebHistory(process.env.BASE_URL),
   routes
 })
 
